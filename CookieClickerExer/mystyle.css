@@ -1,0 +1,63 @@
+.Outerbox
+{
+    margin: 100px;
+}
+
+.InnerBox
+{
+    min-width: 1300px;
+    margin:auto;
+}
+
+.banner
+{
+    min-height: 200px;
+    min-width: 1300px;
+    background-color: darkgrey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+.flex-container
+{
+    display: flex;
+    min-height: 1060px;
+}
+
+.flex-container.div
+{
+    background-image: url("background.jpeg");
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+}
+
+
+.ClickerSection
+{
+    background-color: yellow;
+    min-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.InfoSection
+{
+    background-color: orange;
+    min-width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.UpgradeSection
+{
+    background-color: red;
+    min-width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
