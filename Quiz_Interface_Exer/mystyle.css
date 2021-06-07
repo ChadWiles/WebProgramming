@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    max-height: 1500px;
+}
+
+.OuterBox {
+    background-image: url("curtain.jpg");
+    min-width: 1060px;
+    height: 800px;
+    min-height: 800px;
+    display: flex;
+}
+
+.ContestantBox {
+    background-image: url("GirlHappy.png");
+    width: 800px;
+    height: 800px;
+    min-width: 850px;
+}
+
+.QuizBox {
+    background-color: rgb(177, 218, 228);
+    min-width: 600px;
+    border-radius: 20px;
+    margin: 100px 0px;
+}
+
+.QuizBox h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+.QuizBox h3 {
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+label {
+    color: rgb(56, 89, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.QuestionBox {
+    padding-left: 50px;
+    
+}
+.SolutionBox {
+    color: rgb(0, 0, 0);
+    height: 200px;
+    padding: 100px 0px;
+}
+
+.footer {
+    background-color: white;
+    min-height: 75px;
+    width: 1200px;
+    border-radius: 20px;
+}
