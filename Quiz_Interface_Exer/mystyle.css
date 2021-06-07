@@ -50,6 +50,18 @@ body {
 
 }
 
+.AnswerButton {
+    padding: 10px 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: lightcoral;
+
+}
+
 label {
     color: rgb(56, 89, 150);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,13 +71,25 @@ label {
 }
 .QuestionBox {
     padding-left: 50px;
-    
+
 }
 .SolutionBox {
-    color: rgb(0, 0, 0);
-    height: 200px;
-    padding: 100px 0px;
+    color: rgb(56, 89, 150);
+    padding: 5px 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+
 }
+
+.SolutionBox h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(19, 110, 64);
+    text-align: center;
+    margin-top: 75px;
+}
+
 
 .footer {
     background-color: white;
