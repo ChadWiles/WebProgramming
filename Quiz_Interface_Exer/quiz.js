@@ -3,7 +3,10 @@ var quiz = {
     unsortedQuestions: [],
     questionSequence: [0,1,2,3,4,5],
     questionID: 0,
-    questionNumber: 0
+    questionNumber: 0,
+    answers: [],
+    unsortedAnswers: [],
+    answerSequence: [0,1,2,3]
 };
 
 for(let i = quiz.questionSequence.length -1; i > -1; i--){
@@ -11,6 +14,13 @@ for(let i = quiz.questionSequence.length -1; i > -1; i--){
     const temp = quiz.questionSequence[i]
     quiz.questionSequence[i] = quiz.questionSequence[j]
     quiz.questionSequence[j] = temp
+}
+
+for(let i = quiz.answerSequence.length -1; i > -1; i--){
+    const j = Math.floor(Math.random() * i)
+    const temp = quiz.answerSequence[i]
+    quiz.answerSequence[i] = quiz.answerSequence[j]
+    quiz.answerSequence[j] = temp
 }
 
 // Question order before its randomized //
@@ -39,5 +49,28 @@ document.getElementById("questionText").innerHTML = quiz.questions[0] + " Questi
 
 document.getElementById("questionNumber").innerHTML = " Question: " + (quiz.questionNumber + 1);
 
+var answerSet = [];
 
+switch(quiz.questionID) {
+    
+}
+
+quiz.questionID = quiz.unsortedQuestions.indexOf(quiz.questions[quiz.questionNumber]);
+
+document.getElementById("questionText").innerHTML =
+quiz.questions[quiz.questionNumber] + " Question ID: " + quiz.questionID;
+
+document.getElementById("questionNumber").innerHTML = " Question: " + (quiz.questionNumber + 1);
+
+document.getElementById("answer1").innerHTML =
+answerSet[0];
+
+document.getElementById("answer1").innerHTML =
+answerSet[1];
+
+document.getElementById("answer1").innerHTML =
+answerSet[2];
+
+document.getElementById("answer1").innerHTML =
+answerSet[3];
 
