@@ -91,9 +91,18 @@ label {
 }
 
 
-.footer {
+.Footer {
     background-color: white;
     min-height: 75px;
     width: 1200px;
     border-radius: 20px;
+    margin: 70px 200px;
+
+}
+
+.Footer h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
 }
